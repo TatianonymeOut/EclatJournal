@@ -2,11 +2,27 @@
 
 > Un journal de bien-être multimédia, privé et local-first, pour les petits moments de la vie.
 
-[Read in English](README.md) · [Confidentialité](PRIVACY.md) · [Avertissement santé](MEDICAL_DISCLAIMER.md) · [Contribuer](CONTRIBUTING.md)
+[Read in English](README.md) · [Feuille de route](ROADMAP.md) · [Journal des changements](CHANGELOG.md) · [Confidentialité](PRIVACY.md) · [Avertissement santé](MEDICAL_DISCLAIMER.md) · [Contribuer](CONTRIBUTING.md)
 
 Éclat Journal est une application SwiftUI native pour iOS et macOS. Son MVP fonctionnel offre un espace calme pour consigner son humeur, ses mots et ses médias, sans compte et sans envoyer le journal vers un serveur exploité par le projet.
 
 Le projet est en début de développement public. Son intention est simple : un journal personnel attentionné, et non un réseau social, un outil de diagnostic ou une application conçue pour capter l'attention.
+
+## Aperçu
+
+Les captures ci-dessous n’utilisent que des données fictives : aucune donnée de journal ou de santé personnelle n’y apparaît.
+
+<p align="center">
+  <img src="docs/screenshots/today.png" alt="Écran Aujourd’hui avec réflexion du jour, choix d’humeur et entrée fictive" width="860">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/journal.png" alt="Chronologie du journal avec entrées d’humeur fictives" width="860">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/trends.png" alt="Tendances d’humeur locales construites à partir de données fictives" width="860">
+</p>
 
 ## L'idée
 
