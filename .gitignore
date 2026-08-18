@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Xcode build output
+build/
+.build/
+DerivedData/
+*.xcarchive
+*.ipa
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager local state
+.swiftpm/
+Packages/
+
+# Fastlane output
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.cer
+*.key
+
+# Privacy-sensitive local development material
+PrivateSampleData/
+LocalExports/
+*.journal-export

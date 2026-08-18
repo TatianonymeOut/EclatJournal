@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an improvement while protecting the local-first nature of the app.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please do not include personal journal or health information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: Describe the need with a fictional example.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed experience
+      placeholder: What should happen from a person's point of view?
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and safety considerations
+      description: Would this add permissions, export, cloud processing, sensitive data, or medical claims?
+      placeholder: Explain why it remains local-first, or what explicit user choice would be needed.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

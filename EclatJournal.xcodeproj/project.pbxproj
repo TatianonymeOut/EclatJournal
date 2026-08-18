@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300000000000000000000001 /* EclatJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* EclatJournalApp.swift */; };
+		300000000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* RootView.swift */; };
+		300000000000000000000003 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* SharedViews.swift */; };
+		300000000000000000000004 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* Mood.swift */; };
+		300000000000000000000005 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* JournalEntry.swift */; };
+		300000000000000000000006 /* DailyMantra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* DailyMantra.swift */; };
+		300000000000000000000007 /* JournalInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* JournalInsights.swift */; };
+		300000000000000000000008 /* MediaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MediaStore.swift */; };
+		300000000000000000000009 /* MediaDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* MediaDraft.swift */; };
+		30000000000000000000000A /* MediaAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* MediaAttachmentView.swift */; };
+		30000000000000000000000B /* MediaComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* MediaComposer.swift */; };
+		30000000000000000000000C /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000C /* DateFormatting.swift */; };
+		30000000000000000000000D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* SampleData.swift */; };
+		30000000000000000000000E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* HomeView.swift */; };
+		30000000000000000000000F /* EntryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* EntryRow.swift */; };
+		300000000000000000000010 /* EntryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* EntryEditorView.swift */; };
+		300000000000000000000011 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* EntryDetailView.swift */; };
+		300000000000000000000012 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* JournalListView.swift */; };
+		300000000000000000000013 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* TimelineView.swift */; };
+		300000000000000000000014 /* HealthLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* HealthLogView.swift */; };
+		300000000000000000000015 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* InsightsView.swift */; };
+		300000000000000000000016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* SettingsView.swift */; };
+		300000000000000000000017 /* EclatJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* EclatJournalTests.swift */; };
+		300000000000000000000018 /* DailyMantraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* DailyMantraTests.swift */; };
+		300000000000000000000019 /* JournalInsightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* JournalInsightsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		400000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000005;
+			remoteInfo = EclatJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000004 /* EclatJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EclatJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000000F /* EclatJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EclatJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000001 /* EclatJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclatJournalApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* DailyMantra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMantra.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* JournalInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalInsights.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* MediaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStore.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* MediaDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDraft.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* MediaAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAttachmentView.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* MediaComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaComposer.swift; sourceTree = "<group>"; };
+		20000000000000000000000C /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		20000000000000000000000D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* EntryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRow.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* EntryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryEditorView.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* HealthLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLogView.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* EclatJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclatJournalTests.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* DailyMantraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMantraTests.swift; sourceTree = "<group>"; };
+		200000000000000000000019 /* JournalInsightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalInsightsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* EclatJournal */,
+				10000000000000000000000E /* EclatJournalTests */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* EclatJournal.app */,
+				00000000000000000000000F /* EclatJournalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000001 /* EclatJournal */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* App */,
+				100000000000000000000003 /* Domain */,
+				100000000000000000000004 /* Features */,
+				10000000000000000000000C /* Media */,
+				10000000000000000000000D /* Support */,
+			);
+			path = EclatJournal;
+			sourceTree = "<group>";
+		};
+		100000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* EclatJournalApp.swift */,
+				200000000000000000000002 /* RootView.swift */,
+				200000000000000000000003 /* SharedViews.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		100000000000000000000003 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000004 /* Mood.swift */,
+				200000000000000000000005 /* JournalEntry.swift */,
+				200000000000000000000006 /* DailyMantra.swift */,
+				200000000000000000000007 /* JournalInsights.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		100000000000000000000004 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000005 /* Home */,
+				100000000000000000000006 /* Journal */,
+				100000000000000000000007 /* Timeline */,
+				100000000000000000000008 /* Health */,
+				100000000000000000000009 /* Insights */,
+				10000000000000000000000A /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		100000000000000000000005 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		100000000000000000000006 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000F /* EntryRow.swift */,
+				200000000000000000000010 /* EntryEditorView.swift */,
+				200000000000000000000011 /* EntryDetailView.swift */,
+				200000000000000000000012 /* JournalListView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		100000000000000000000007 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000013 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		100000000000000000000008 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000014 /* HealthLogView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		100000000000000000000009 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000015 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000016 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000008 /* MediaStore.swift */,
+				200000000000000000000009 /* MediaDraft.swift */,
+				20000000000000000000000A /* MediaAttachmentView.swift */,
+				20000000000000000000000B /* MediaComposer.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000C /* DateFormatting.swift */,
+				20000000000000000000000D /* SampleData.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000E /* EclatJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000017 /* EclatJournalTests.swift */,
+				200000000000000000000018 /* DailyMantraTests.swift */,
+				200000000000000000000019 /* JournalInsightsTests.swift */,
+			);
+			path = EclatJournalTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000005 /* EclatJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000009 /* Build configuration list for PBXNativeTarget "EclatJournal" */;
+			buildPhases = (
+				000000000000000000000006 /* Sources */,
+				000000000000000000000007 /* Frameworks */,
+				000000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EclatJournal;
+			productName = EclatJournal;
+			productReference = 000000000000000000000004 /* EclatJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000011 /* EclatJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000012 /* Build configuration list for PBXNativeTarget "EclatJournalTests" */;
+			buildPhases = (
+				00000000000000000000000E /* Sources */,
+				000000000000000000000010 /* Frameworks */,
+				00000000000000000000000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000013 /* PBXTargetDependency */,
+			);
+			name = EclatJournalTests;
+			productName = EclatJournalTests;
+			productReference = 00000000000000000000000F /* EclatJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					000000000000000000000005 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					000000000000000000000011 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 000000000000000000000005;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000000C /* Build configuration list for PBXProject "EclatJournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000005 /* EclatJournal */,
+				000000000000000000000011 /* EclatJournalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000001 /* EclatJournalApp.swift in Sources */,
+				300000000000000000000002 /* RootView.swift in Sources */,
+				300000000000000000000003 /* SharedViews.swift in Sources */,
+				300000000000000000000004 /* Mood.swift in Sources */,
+				300000000000000000000005 /* JournalEntry.swift in Sources */,
+				300000000000000000000006 /* DailyMantra.swift in Sources */,
+				300000000000000000000007 /* JournalInsights.swift in Sources */,
+				300000000000000000000008 /* MediaStore.swift in Sources */,
+				300000000000000000000009 /* MediaDraft.swift in Sources */,
+				30000000000000000000000A /* MediaAttachmentView.swift in Sources */,
+				30000000000000000000000B /* MediaComposer.swift in Sources */,
+				30000000000000000000000C /* DateFormatting.swift in Sources */,
+				30000000000000000000000D /* SampleData.swift in Sources */,
+				30000000000000000000000E /* HomeView.swift in Sources */,
+				30000000000000000000000F /* EntryRow.swift in Sources */,
+				300000000000000000000010 /* EntryEditorView.swift in Sources */,
+				300000000000000000000011 /* EntryDetailView.swift in Sources */,
+				300000000000000000000012 /* JournalListView.swift in Sources */,
+				300000000000000000000013 /* TimelineView.swift in Sources */,
+				300000000000000000000014 /* HealthLogView.swift in Sources */,
+				300000000000000000000015 /* InsightsView.swift in Sources */,
+				300000000000000000000016 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000017 /* EclatJournalTests.swift in Sources */,
+				300000000000000000000018 /* DailyMantraTests.swift in Sources */,
+				300000000000000000000019 /* JournalInsightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000005 /* EclatJournal */;
+			targetProxy = 400000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Éclat Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclatjournal.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Éclat Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclatjournal.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000000000000000000000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclatjournal.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EclatJournal.app/Contents/MacOS/EclatJournal";
+				TEST_TARGET_NAME = EclatJournal;
+			};
+			name = Debug;
+		};
+		000000000000000000000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eclatjournal.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EclatJournal.app/Contents/MacOS/EclatJournal";
+				TEST_TARGET_NAME = EclatJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000009 /* Build configuration list for PBXNativeTarget "EclatJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000014 /* Debug */,
+				000000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000C /* Build configuration list for PBXProject "EclatJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000A /* Debug */,
+				00000000000000000000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000012 /* Build configuration list for PBXNativeTarget "EclatJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000016 /* Debug */,
+				000000000000000000000017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
